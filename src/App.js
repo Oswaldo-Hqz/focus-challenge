@@ -11,8 +11,7 @@ function App() {
   return (
     <Router>
       <Navigation/>
-      <Route path="/" exact component={Home} />
-      <Route path="/post" component={PostList} />
+      <Route path="/" exact component={PostList} />
     </Router>
   );
 }
