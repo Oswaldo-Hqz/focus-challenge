@@ -22,14 +22,14 @@ export default class Navigation extends Component {
                             <Link data-target="mobile-demo" className="sidenav-trigger" to="#"><i className="material-icons">menu</i>Menu</Link>
                             <ul id="nav-mobile" className="right hide-on-med-and-down">
                                 <li><Link to="/">Home</Link></li>
-                                <li><Link to="/post">Post</Link></li>
+                                {/* <li><Link to="/post">Post</Link></li> */}
                             </ul>
                         </div>
                     </div>
                 </nav>
                 <ul className="sidenav" id="mobile-demo">
                     <li><Link to="/">Home</Link></li>
-                    <li><Link to="/post">Post</Link></li>
+                    {/* <li><Link to="/post">Post</Link></li> */}
                 </ul>
             </div>
         )
